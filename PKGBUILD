@@ -3,13 +3,13 @@
 
 pkgname=minisforum-v3-accelerometer
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Set correct mount matrix for accelerometer using udev hwdb entry"
 arch=('x86_64')
 url=''
 license=('MIT')
 depends=('iio-sensor-proxy' 'udev')
-optdepends=('minisforum-v3-dtst: Use patched DTST to support Minisforum V3 accelerometer')
+optdepends=('minisforum-v3-dsdt: Use patched DSDT to support Minisforum V3 accelerometer')
 
 source=('61-sensor-minisforum-v3.hwdb')
 sha256sums=('5b8011b3417f552b4d84456368ca76086006347587d9ac8f7a7796ddee646026')
