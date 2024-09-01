@@ -1,7 +1,8 @@
 pkgbase = minisforum-v3-accelerometer
 	pkgdesc = Set correct mount matrix for accelerometer using udev hwdb entry
 	pkgver = 1.0.0
-	pkgrel = 2
+	pkgrel = 3
+	url = https://github.com/trijpstra-fourlights/minisforum-v3-accelerometer
 	arch = x86_64
 	license = MIT
 	depends = iio-sensor-proxy
